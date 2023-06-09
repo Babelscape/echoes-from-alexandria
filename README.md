@@ -27,6 +27,10 @@ Then, activate the newly-created environment and install the required libraries:
 conda activate echoes-from-alexandria
 pip install -r requirements.txt
 ```
+Download and unzip the required data from:
+[https://drive.google.com/drive/folders/1Ve5EhafQO2C1RAMiJkpJ7h2PhvlVJrWq?usp=sharing
+](https://drive.google.com/drive/folders/1Ve5EhafQO2C1RAMiJkpJ7h2PhvlVJrWq?usp=sharing)
+put the unzipped files and folders inside _data_.
 In order to generate the Echo-Wiki and Echo-XSum datasets, run the following script:
 This execution of this script may take a while, since it will download the required Wikipedia, Wikisource and Gutenberg
 dumps.
