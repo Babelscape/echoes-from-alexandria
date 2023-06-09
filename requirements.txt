@@ -1,0 +1,7 @@
+regex
+wget
+tqdm
+mwparserfromhell
+datasets
+nltk
+pandas
