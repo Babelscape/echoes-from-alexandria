@@ -91,32 +91,32 @@ The echo-wiki.jsonl and echo-xsum.jsonl files are structured in the following wa
       {
          "title":"macbeth",
          "language":"en",
-         "filepath":"echoes_from_alexandria_release/books/en_Macbeth_macbeth.jsonl"
+         "filepath":"echoes_from_alexandria/books/en_Macbeth_macbeth.jsonl"
       },
       {
          "title":"Shakespeare - First Folio facsimile (1910)",
          "language":"en",
-         "filepath":"echoes_from_alexandria_release/books/en_Macbeth_Shakespeare - First Folio facsimile (1910).jsonl"
+         "filepath":"echoes_from_alexandria/books/en_Macbeth_Shakespeare - First Folio facsimile (1910).jsonl"
       },
       {
          "title":"macbeth",
          "language":"de",
-         "filepath":"echoes_from_alexandria_release/books/de_Macbeth_macbeth.jsonl"
+         "filepath":"echoes_from_alexandria/books/de_Macbeth_macbeth.jsonl"
       },
       {
          "title":"macbeth",
          "language":"fr",
-         "filepath":"echoes_from_alexandria_release/books/fr_Macbeth_macbeth.jsonl"
+         "filepath":"echoes_from_alexandria/books/fr_Macbeth_macbeth.jsonl"
       },
       {
          "title":"Macbeth (Men\u00e9ndez y Pelayo tr.)",
          "language":"es",
-         "filepath":"echoes_from_alexandria_release/books/es_Macbeth_Macbeth (Men\u00e9ndez y Pelayo tr.).jsonl"
+         "filepath":"echoes_from_alexandria/books/es_Macbeth_Macbeth (Men\u00e9ndez y Pelayo tr.).jsonl"
       },
       {
          "title":"Macbeth (fragmento)",
          "language":"es",
-         "filepath":"echoes_from_alexandria_release/books/es_Macbeth_Macbeth (fragmento).jsonl"
+         "filepath":"echoes_from_alexandria/books/es_Macbeth_Macbeth (fragmento).jsonl"
       }
    ],
    "summaries":{
