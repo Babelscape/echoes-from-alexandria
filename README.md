@@ -9,7 +9,7 @@
         
 </p>
 
-This repository contains the code of [Echoes from Alexandria: a Large Resource for Multilingual Book Summarization](https://arxiv.org/abs/2306.04334), 
+This repository contains the code of [Echoes from Alexandria: a Large Resource for Multilingual Book Summarization](https://arxiv.org/abs/2306.04334). 
 This work was accepted at ACL 2023.
 
 ## Setup the environment
