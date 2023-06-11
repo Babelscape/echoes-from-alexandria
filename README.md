@@ -32,11 +32,12 @@ Download and unzip the required data from:
 ](https://drive.google.com/drive/folders/1Ve5EhafQO2C1RAMiJkpJ7h2PhvlVJrWq?usp=sharing)
 put the unzipped files and folders inside _data_.
 In order to generate the Echo-Wiki and Echo-XSum datasets, run the following script:
-The execution of this script may take a while, since it will download the required Wikipedia, Wikisource and Gutenberg
-dumps.
 ```
 PYTHONPATH=. python dataset_generation/src/main/generate_echoes.py 
 ```
+The execution of this script may take a while, since it will download the required Wikipedia, Wikisource and Gutenberg
+dumps.
+
 You can configure the dumps destination folder by editing the variable BASE_PATH in dataset_generation/src/utils/constants.py,
 and the Wikipedia and Wikisource dump dates by changing the variables WIKI_DUMP_DATE and WIKISOURCE_DUMP_DATE in the same file.
 
