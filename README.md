@@ -35,7 +35,7 @@ In order to generate the Echo-Wiki and Echo-XSum datasets, run the following scr
 ```
 PYTHONPATH=. python dataset_generation/src/main/generate_echoes.py 
 ```
-The execution of this script may take a while, since it will download the required Wikipedia, Wikisource and Gutenberg
+The execution of this script may take a while, since it will download the required Wikisource and Gutenberg
 dumps.
 
 You can configure the dumps destination folder by editing the variable BASE_PATH in dataset_generation/src/utils/constants.py,
