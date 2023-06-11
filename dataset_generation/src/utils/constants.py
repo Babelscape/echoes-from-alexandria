@@ -1,5 +1,5 @@
 # set books directory path
-BASE_PATH = "data/book_dumps"
+BASE_PATH = "data"
 
 # date of the wikimedia dumps (yyyymmdd)
 WIKI_DUMP_DATE: str = "20230501"
