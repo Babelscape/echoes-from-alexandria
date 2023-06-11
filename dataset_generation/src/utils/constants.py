@@ -2,7 +2,7 @@
 BASE_PATH = "data"
 
 # date of the wikimedia dumps (yyyymmdd)
-WIKI_DUMP_DATE: str = "20230501"
+WIKI_DUMP_DATE: str = "20220701"
 WIKISOURCE_DUMP_DATE: str = "20230501"
 
 # corpus subdirectories
