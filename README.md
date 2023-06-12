@@ -31,6 +31,9 @@ Download and unzip the required data from:
 [https://drive.google.com/drive/folders/1Ve5EhafQO2C1RAMiJkpJ7h2PhvlVJrWq?usp=sharing
 ](https://drive.google.com/drive/folders/1Ve5EhafQO2C1RAMiJkpJ7h2PhvlVJrWq?usp=sharing)
 put the unzipped files and folders inside _data_.
+
+## Generate Echoes
+
 In order to generate the Echo-Wiki and Echo-XSum datasets, run the following script:
 ```
 PYTHONPATH=. python dataset_generation/src/main/generate_echoes.py 
@@ -39,7 +42,8 @@ The execution of this script may take a while, since it will download the requir
 dumps.
 
 You can configure the dumps destination folder by editing the variable BASE_PATH in dataset_generation/src/utils/constants.py,
-and the Wikipedia and Wikisource dump dates by changing the variables WIKI_DUMP_DATE and WIKISOURCE_DUMP_DATE in the same file.
+and the Wikisource dump date by changing the variable WIKISOURCE_DUMP_DATE in the same file.
+If you decide to change the BASE_PATH variable, please remember to move the 'wikipedia-dump' folder to the new path you specified.
 
 The output folder, namely 'echoes_from_alexandria', will be organized as follows:
 ```
@@ -138,10 +142,10 @@ The echo-wiki.jsonl and echo-xsum.jsonl files are structured in the following wa
 
 Where:
 
-_title_ contains the Wikipedia pages titles for each language;
+_title_ stores the titles of Wikipedia pages corresponding to each language.
 
-_section_ contains the Wikipedia section titles from where summaries are parsed (available for Echo-Wiki only);
+_section_ contains the section titles from which the summaries are extracted (specific to Echo-Wiki).
 
-_versions_ is a list of the filepaths of the available book texts in different languages;
+_versions_ is the list of filepaths that provide access to the available book texts in multiple languages.
 
-_summaries_ contains the available summaries for each language.
+_summaries_holds the available summaries for each language.
