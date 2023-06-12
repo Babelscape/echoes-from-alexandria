@@ -1,5 +1,5 @@
 # set books directory path
-BASE_PATH = "data"
+BASE_PATH = "/media/hdd/shared/echoes-from-alexandria-data"
 
 # date of the wikimedia dumps (yyyymmdd)
 WIKI_DUMP_DATE: str = "20220701"

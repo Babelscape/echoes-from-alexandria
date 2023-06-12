@@ -20,7 +20,7 @@ def download(languages: List[str], debug_title: str = None):
     download_wiki("wikisource", WIKISOURCE_DUMP_PATH, WIKISOURCE_DUMP_DATE, languages)
     # cleans and organizes wikisource book texts
     organize_texts(
-        WIKISOURCE_DUMP_PATH, WIKI_DUMP_DATE, languages, debug_title=debug_title
+        WIKISOURCE_DUMP_PATH, WIKISOURCE_DUMP_DATE, languages, debug_title=debug_title
     )
     # download and parse gutenberg
     download_gutenberg(GUTENBERG_DATASET_PATH)
