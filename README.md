@@ -1,4 +1,4 @@
-<h1 align ="center"> Echoes from Alexandria: a Large Multilingual Resource for Book Summarization </h1>
+<h1 align ="center"> Echoes from Alexandria: a Large Resource for Multilingual Book Summarization </h1>
 <p>
 <a href="">
         <img alt="Python" src="https://img.shields.io/badge/Python 3.8--3.9-blue?style=for-the-badge&logo=python&logoColor=white">
