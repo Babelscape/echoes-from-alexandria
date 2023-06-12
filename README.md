@@ -39,7 +39,8 @@ The execution of this script may take a while, since it will download the requir
 dumps.
 
 You can configure the dumps destination folder by editing the variable BASE_PATH in dataset_generation/src/utils/constants.py,
-and the Wikipedia and Wikisource dump dates by changing the variables WIKI_DUMP_DATE and WIKISOURCE_DUMP_DATE in the same file.
+and the Wikisource dump date by changing the variable WIKISOURCE_DUMP_DATE in the same file.
+If you decide to change the BASE_PATH variable, please remember to move the 'wikipedia-dump' folder to the new path you specified.
 
 The output folder, namely 'echoes_from_alexandria', will be organized as follows:
 ```
