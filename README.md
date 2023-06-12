@@ -139,10 +139,10 @@ The echo-wiki.jsonl and echo-xsum.jsonl files are structured in the following wa
 
 Where:
 
-_title_ contains the Wikipedia pages titles for each language;
+_title_ stores the titles of Wikipedia pages corresponding to each language.
 
-_section_ contains the Wikipedia section titles from where summaries are parsed (available for Echo-Wiki only);
+_section_ contains the section titles from which the summaries are extracted (specific to Echo-Wiki).
 
-_versions_ is a list of the filepaths of the available book texts in different languages;
+_versions_ is the list of filepaths that provide access to the available book texts in multiple languages.
 
-_summaries_ contains the available summaries for each language.
+_summaries_holds the available summaries for each language.
