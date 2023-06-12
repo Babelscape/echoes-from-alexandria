@@ -3,7 +3,7 @@ import subprocess
 
 
 def download_gutenberg(output_path: str):
-    script_path = "src/scripts/download_gutenberg.sh"
+    script_path = "dataset_generation/src/scripts/download_gutenberg.sh"
     if not os.path.exists(output_path):
         cmd = ["bash", script_path, output_path]
         p = subprocess.Popen(cmd, stdout=subprocess.PIPE)
