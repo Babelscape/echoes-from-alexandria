@@ -148,4 +148,4 @@ _section_ contains the section titles from which the summaries are extracted (sp
 
 _versions_ is the list of filepaths that provide access to the available book texts in multiple languages.
 
-_summaries_holds the available summaries for each language.
+_summaries_ holds the available summaries for each language.
