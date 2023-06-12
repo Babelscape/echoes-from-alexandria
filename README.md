@@ -1,4 +1,4 @@
-<h1 align ="center"> Echoes from Alexandria: a Large Multilingual Resource for Book Summarization </h1>
+<h1 align ="center"> Echoes from Alexandria: A Large Resource for Multilingual Book Summarization </h1>
 <p>
 <a href="">
         <img alt="Python" src="https://img.shields.io/badge/Python 3.8--3.9-blue?style=for-the-badge&logo=python&logoColor=white">
@@ -30,6 +30,7 @@ pip install -r requirements.txt
 Download and unzip the required data from:
 [https://drive.google.com/drive/folders/1Ve5EhafQO2C1RAMiJkpJ7h2PhvlVJrWq?usp=sharing
 ](https://drive.google.com/drive/folders/1Ve5EhafQO2C1RAMiJkpJ7h2PhvlVJrWq?usp=sharing)
+
 put the unzipped files and folders inside _data_.
 
 ## Generate Echoes
@@ -148,4 +149,4 @@ _section_ contains the section titles from which the summaries are extracted (sp
 
 _versions_ is the list of filepaths that provide access to the available book texts in multiple languages.
 
-_summaries_holds the available summaries for each language.
+_summaries_ holds the available summaries for each language.
