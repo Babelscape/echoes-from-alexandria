@@ -1,5 +1,6 @@
 import json
 import os.path
+from copy import deepcopy
 from typing import List, Optional
 from dataset_generation.src.echo_wiki.parser import EchoWikiParser
 from dataset_generation.src.echo_xsum.parser import EchoXSumParser
@@ -41,12 +42,12 @@ def generate_dataset(
         echo_xsum_books = [b for b in books if 'xsummaries' in b]
     fields_to_delete = ['introduction', 'synset', 'translations', 'xsummaries']
     with open(echo_wiki_path, 'w') as ew:
-        for b in echo_wiki_books:
+        for b in deepcopy(echo_wiki_books):
             delete_fields(b, fields_to_delete)
             ew.write(json.dumps(b) + '\n')
     fields_to_delete = ['introduction', 'synset', 'translations', 'summaries', 'sections']
     with open(echo_xsum_path, 'w') as ex:
-        for b in echo_xsum_books:
+        for b in deepcopy(echo_xsum_books):
             delete_fields(b, fields_to_delete)
             summaries = b['xsummaries']
             b['summaries'] = summaries

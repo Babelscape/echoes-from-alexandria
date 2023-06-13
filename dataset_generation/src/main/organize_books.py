@@ -105,6 +105,6 @@ def organize_books(
                     del v['filepaths']
                 book['versions'] = final_versions
                 index.append(book)
-    with open(index_output_path, "w") as f:
-        for b in index:
-            f.write(json.dumps(b) + "\n")
+        with open(index_output_path, "w") as f:
+            for b in index:
+                f.write(json.dumps(b) + "\n")
