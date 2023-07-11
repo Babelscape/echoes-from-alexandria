@@ -261,9 +261,8 @@ class EchoWikiParser:
         return synset
 
     def _load_translations(self, languages, wiki_title_translations_path):
-        langs_tag = "".join(sorted(languages))
         filtered_translations_path = wiki_title_translations_path.replace(
-            ".json", f"_{langs_tag}_filtered.json"
+            ".json", f"_filtered.json"
         )
         translations_path = (
             wiki_title_translations_path

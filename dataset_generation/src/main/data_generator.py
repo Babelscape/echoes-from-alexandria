@@ -40,12 +40,12 @@ def generate_dataset(
         books = [json.loads(l.strip()) for l in f.readlines()]
         echo_wiki_books = [b for b in books if 'summaries' in b]
         echo_xsum_books = [b for b in books if 'xsummaries' in b]
-    fields_to_delete = ['introduction', 'synset', 'translations', 'xsummaries']
+    fields_to_delete = ['introduction', 'translations', 'xsummaries']
     with open(echo_wiki_path, 'w') as ew:
         for b in deepcopy(echo_wiki_books):
             delete_fields(b, fields_to_delete)
             ew.write(json.dumps(b) + '\n')
-    fields_to_delete = ['introduction', 'synset', 'translations', 'summaries', 'sections']
+    fields_to_delete = ['introduction', 'translations', 'summaries', 'sections']
     with open(echo_xsum_path, 'w') as ex:
         for b in deepcopy(echo_xsum_books):
             delete_fields(b, fields_to_delete)
