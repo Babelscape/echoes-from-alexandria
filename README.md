@@ -11,6 +11,7 @@
 
 This repository contains the code of [Echoes from Alexandria: a Large Resource for Multilingual Book Summarization](https://aclanthology.org/2023.findings-acl.54/). 
 This work was accepted at ACL 2023.
+
 If you find our paper, code or framework useful, please reference this work in your paper:
 
 ```
