@@ -11,6 +11,24 @@
 
 This repository contains the code of [Echoes from Alexandria: a Large Resource for Multilingual Book Summarization](https://aclanthology.org/2023.findings-acl.54/). 
 This work was accepted at ACL 2023.
+If you find our paper, code or framework useful, please reference this work in your paper:
+
+```
+@inproceedings{scire-etal-2023-echoes,
+    title = "Echoes from Alexandria: A Large Resource for Multilingual Book Summarization",
+    author = "Scir{\`e}, Alessandro  and
+      Conia, Simone  and
+      Ciciliano, Simone  and
+      Navigli, Roberto",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.54",
+    pages = "853--867"
+}
+```
 
 ## Setup the environment
 
