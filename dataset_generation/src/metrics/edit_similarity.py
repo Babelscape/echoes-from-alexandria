@@ -1,4 +1,3 @@
-from datasets import load_metric
 from nltk.corpus import stopwords
 
 
@@ -65,17 +64,3 @@ class EditSimilarity(Metric):
         return "edit"
 
 
-class BertScore(Metric):
-    def __init__(self, language: str):
-        super().__init__(language)
-        self.metric = load_metric("bertscore")
-
-    def compute(self, s1, s2):
-        if s1.lower() == s2.lower():
-            return 1.0
-        return self.metric.compute(
-            predictions=[s1], references=[s2], lang=self.language
-        )["f1"][0]
-
-    def get_name(self) -> str:
-        return "bertscore"

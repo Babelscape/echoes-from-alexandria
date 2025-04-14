@@ -2,8 +2,8 @@
 BASE_PATH = "data"
 
 # date of the wikimedia dumps (yyyymmdd)
-WIKI_DUMP_DATE: str = "20220701"
-WIKISOURCE_DUMP_DATE: str = "20230501"
+WIKI_DUMP_DATE: str = "20250301"
+WIKISOURCE_DUMP_DATE: str = "20250301"
 
 # corpus subdirectories
 GUTENBERG_DATASET_PATH: str = f"{BASE_PATH}/gutenberg"
